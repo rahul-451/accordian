@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.bg-color {
+    background-color: #F7F7F7;
+}
+
+.column-flex {
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+h1 {
+    color: var(--gray, #808080);
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 43px;
+}
+
+.box {
+    width: 540px;
+    padding: 30px;
+    border-radius: 20px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.accordian {
+    width: 498px;
+    padding: 17px 11px 18px 19px;
+    border-radius: 5px;
+    border: 1px solid#E6E6E6;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.accordian.active .para {
+    display: block;
+    width: 498px;
+    height: 142px;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid var(--blue, #128DFF);
+    margin-top: 20px;
+}
+
+
+.active .svg-1{
+    rotate: 180deg;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content h2 {
+    color: var(--gray, #808080);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.para {
+    color: var(--gray, #808080);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 468px;
+    display: none;
+}
